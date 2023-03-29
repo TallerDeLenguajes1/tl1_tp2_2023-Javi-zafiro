@@ -6,11 +6,15 @@
 int main()
 {
     int i;
-    double vt[N];
+    double vt[N], *p, *aux;
+    p=vt;
     for(i = 0;i<N; i++)
     {
-    vt[i]=1+rand()%100;
-    printf(" %f ", vt[i]);
+        aux=p;
+        p=p+i;
+        *p=1+rand()%100;
+        printf(" %f ", *p);
+        p=aux;
     }
 
     return 0;

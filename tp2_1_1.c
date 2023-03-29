@@ -6,11 +6,9 @@
 int main()
 {
     int i;
-    double vt[N], *p;
-    p=vt;
+    double vt[N];
     for(i = 0;i<N; i++)
     {
-        printf("hola mundo \n");
         vt[i]=1+rand()%100;
         printf(" %f ", vt[i]);
     }
