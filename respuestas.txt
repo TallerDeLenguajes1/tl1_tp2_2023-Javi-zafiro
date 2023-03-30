@@ -1,1 +1,6 @@
+2.
+f) 
+.)el archivo  tp2_1_2.c no se ve porque no esta en la rama del main, si no en opcion dos y como la biblioteca solo nos muestra los archivos de la rama en la que estamos, al estar en el main el archivo no se ve
+.)se puede ver la division de las ramas y los archivos que hay en ellas al seleccionarlas
+.)se puede ver la union entre las ramas ademas de todos los archivos de ambas ramas juntos en una
 
